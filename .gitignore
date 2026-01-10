@@ -1,0 +1,15 @@
+*/__pycache__
+__pycache__
+*/.ipynb_checkpoints
+.ipynb_checkpoints
+*.so
+
+# hide direnv stuff
+.direnv/
+
+build/
+dist/
+*.xcuserstate
+
+.DS_Store
+*/.DS_Store
