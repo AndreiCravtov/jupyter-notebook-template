@@ -6,4 +6,4 @@ A Jupyter notebook template with reproducible environment powered by Nix Flakes
 - Dependencies: managed by `uv` in `pyproject.toml`
 - Editing:
 - + I prefer to edit in VSCode with Jupyter extensions
-- + But there is `just run-lab` if you prefer Jupyter lab
+- + But there is `just lab-py` if you prefer Jupyter lab

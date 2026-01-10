@@ -29,7 +29,7 @@ repl-nix:
 
 # Run Jupyter environment
 [group('Python')]
-run-py:
+lab-py:
   uv run --with jupyter jupyter lab
 
 check-py:
