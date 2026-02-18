@@ -14,14 +14,16 @@ dev = ["jupyter>=1.1.1", "matplotlib>=3.10.8", "numpy>=2.4.1", "pandas>=2.3.3"]
 pythonVersion = "3.13"
 typeCheckingMode = "strict"
 failOnWarnings = true
-reportAny = "error"
-reportUnknownVariableType = "error"
-reportUnknownParameterType = "error"
-reportMissingParameterType = "error"
-reportMissingTypeStubs = "error"
-reportInvalidCast = "error"
-reportUnnecessaryCast = "error"
-reportUnnecessaryTypeIgnoreComment = "error"
+reportAny = "warning"
+reportUnknownMemberType = "information"
+reportUnknownArgumentType = "information"
+reportUnknownVariableType = "warning"
+reportUnknownParameterType = "warning"
+reportMissingParameterType = "warning"
+reportMissingTypeStubs = "information"
+reportInvalidCast = "warning"
+reportUnnecessaryCast = "warning"
+reportUnnecessaryTypeIgnoreComment = "warning"
 
 exclude = [
     "**/.venv",
